@@ -4,10 +4,9 @@
       font-family: "Open Sans", sans-serif;
 }
 
-header {
+img {
 
-  
-     
+    max-width: 100%;
 }
 
 nav {
@@ -82,11 +81,18 @@ ul li a {
         color: darkslategray;
 }
 
+
+.hero-parent-root {
+    background-color: rgb(255, 223, 162);
+
+}
+
 .hero-parent{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(255, 223, 162);
+    
+
 }
 
 /* .hardy {
@@ -137,5 +143,106 @@ ul li a {
 
 .right-child {
        background-image: url(./images/header_bg.png);
+    
 }
 
+.about-sec {
+
+    background-color: #FFF8F3;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+
+
+
+}
+
+.about-h2 {
+
+    margin: 80px auto  30px auto;
+    font-size: 20px;
+         
+}
+
+.about-p1 {
+    margin: 25px auto;
+
+
+}
+
+.about-sec-div {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box {
+    padding: 0px 2px;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+}
+
+
+
+
+.whatido {
+
+ 
+    margin: 150px auto;
+ 
+
+
+}
+
+.whatido-h2 {
+    text-align: center;
+    margin: 80px auto  30px auto;
+    font-size: 20px;
+
+}
+
+.whatido-p1{
+    text-align: center;
+    margin: 25px auto;
+
+       
+}
+
+.whatido-div-card {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 20px;
+    gap: 20px;
+
+
+
+
+ 
+
+
+}
+
+.dibbi {
+
+      background-color: #FFF8F3;
+      border: 2px solid lavender;
+      padding: 7px;
+
+}
+
+.dibbi h2 {
+
+    margin:20px 0px;
+
+
+}
+
+
+.dibbi p {
+    color: #757575;
+    margin: 30px auto;
+}
